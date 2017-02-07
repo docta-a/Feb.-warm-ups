@@ -12,6 +12,7 @@ int main() {
 
 	cout << "c=Alright by Kendrick Lamar" << endl;
 
+	cout << "d=Silent broo by Molly"
 	cin >> songs;
 	if (songs == 'a')
 		cout << "Ugh chillen with my homiez" << endl;
@@ -19,5 +20,6 @@ int main() {
 		cout << "My Penutbutter Choclate cake with Kool-aid'" << endl;
 	else if (songs == 'c')
 		cout << "**** we Gon be alright!!" << endl;
-
+	else if (songs == 'd')
+		cout << "silent broo is the GOAT"
 }
