@@ -1,10 +1,34 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
-	char string[10];
+	char princess;
 
-	printf("What is your name?");
-	fgets(string, 10, stdin);
-	printf("%s you have a nice face!", string);
+	cout << "Which is your favorite color?" << endl;
+
+	cout << "a= Red" << endl;
+
+	cout << "b= Blue" << endl;
+
+	cout << "c= Light green" << endl;
+
+	cout << "d= pink" << endl;
+
+	cin >> princess;
+	if (princess == 'a')
+		cout << "You are Mulan" << endl;
+	else if (princess == 'b')
+		cout << "You are Cinderella" << endl;
+	else if (princess == 'c')
+		cout << "You are the Little Mermaid" << endl;
+	else if (princess == 'd')
+		cout << "You are Aurora" << endl;
+
+
+
+
+
+
+
 
 }
