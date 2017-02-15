@@ -40,13 +40,13 @@ int main(int argc, char **argv) {
 
 	al_set_target_bitmap(bouncer);
 
-	al_clear_to_color(al_map_rgb(255, 60, 255));
+	al_clear_to_color(al_map_rgb(256, 256, 256));
 	////
 	bouncer2 = al_create_bitmap(BOUNCER_SIZE, BOUNCER_SIZE);
 
 	al_set_target_bitmap(bouncer2);
 
-	al_clear_to_color(al_map_rgb(255, 60, 255));
+	al_clear_to_color(al_map_rgb(255, 255, 255));
 
 	////
 	al_set_target_bitmap(al_get_backbuffer(display));
